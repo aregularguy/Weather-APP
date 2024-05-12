@@ -5,6 +5,7 @@ export type Route = {
   path: string
   component: LazyExoticComponent<<T>(props: T) => JSX.Element>
   authority: string[]
+  meta : any
 }
 
 export type Routes = Route[]

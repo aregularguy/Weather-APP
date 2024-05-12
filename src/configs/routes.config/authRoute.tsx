@@ -6,7 +6,11 @@ const authRoute: Routes = [
     key: 'signIn',
     path: `/sign-in`,
     component: lazy(() => import('@/pages/auth/SignIn')),
-    authority: []
+    authority: [],
+    meta: {
+      title: 'Sign In',
+      description: 'Sign in to your account',
+    },
   },
   // {
   //   key: 'signUp',
